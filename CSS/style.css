@@ -1,0 +1,285 @@
+   /* html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  } */
+  
+  body, html{
+    font-family: Ubuntu, Noto Sans Koreran;
+    color: #e0f2f1;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* border: 1px solid white; */
+  }
+  
+  /*  header  */
+  
+  .header {
+    padding: 15px;
+    /* border: 1px solid #607d8b; */
+    display: flex;
+    justify-content: space-between;
+    /* position: sticky; */
+    /* background-color: #263238; */
+  }
+  
+  .logo_text{
+    color: #fff;
+    font-size: 26px;
+    text-decoration: none;
+    margin-left: 100px;
+  }
+
+  .logo_text:hover{
+    color: #f8bbd0;
+  }
+
+  .header ol {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0;
+    /* margin-right: 15px; */
+  
+  }
+  .header_menu{
+    /* margin-right: 100px; */
+    padding-right: 30px;
+  }
+  .header_menu a{
+    font-size: 20px;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header_menu a:hover{
+    color: #f8bbd0;
+  }
+  
+  
+  
+  /* header the end */
+  .wrapper{  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  }
+ 
+  
+ 
+  
+  /* foot */
+  
+  .footer {
+    color: ##fff;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    margin-top: auto;
+  }
+  
+  .footer a {
+    color: #78909c;
+  }
+  
+  .copy_link ul {
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .sns_icon {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    /* text-decoration: none; */
+  }
+  .sns_icon li {
+    font-size: 34px;
+    margin: 0px 15px;`
+  }
+  .sns_icon li i{
+    color: #e3f2fd;
+  
+  }
+
+  .sns_icon li i:hover{
+    color: #64b5f6;
+
+  }
+
+  
+  .footer li {
+    list-style-type: none;
+  }
+  
+  .monsterball{
+    width: 40px;
+  }
+  
+
+/* 여기까지 공통 */
+
+
+
+
+/* pokedex */
+
+.box {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  justify-content: center;
+  
+}
+.box li{
+  border: 1px solid white;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+
+  margin: 10px 30px;
+  
+}
+
+.box li p{
+  margin: 8px 33px;
+  width: 200px;
+}
+
+.box li:hover{
+  opacity: 0.5;
+  
+}
+
+/* pokedex the end */
+
+
+/* main start*/
+
+.main {
+  flex: 1;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  /*  */
+  display: grid; 
+  gap: 1.5em;
+  grid-template-columns: 60% auto;
+  grid-template-rows: 0.6fr 1.5fr 1.5fr 1.5fr;
+  /* grid-auto-flow: row; */
+  /* grid-template-rows: repeat(3, 1fr); */
+}
+
+.video1{
+  width:80%;
+  /* display: flex; */
+  /* align-items: center; */
+
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 10%;
+  /* position: sticky; */
+  /* width: 80%; */
+  /* display: flex; */
+  /* margin-left: 80px; */
+}
+
+.poster3_container{
+  grid-column: 1;
+  grid-row:2 ;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  width: 100%
+}
+
+.poster3{
+border: 3px solid yellow;
+border-radius: 10px;
+width: 80%;
+
+}
+
+.side{
+
+  /* border: 1px solid yellow; */
+  border-radius: 10px;
+  width: 80%;
+
+  grid-column: 2;
+  grid-row: 1/ span 4;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  
+  margin-left: 10%
+}
+.side_sub2{
+  padding: 0 20px;
+  
+}
+
+.poster3_sub{
+  width: 60%;
+  align-items: flex-end;
+}
+
+/* iframe{
+  grid-column: 2;
+  grid-row: 1 / span 2;
+} */
+
+/* main the end*/
+
+.side_sub1{
+  width: 80%;
+}
+
+
+.poster1_container{
+grid-column: 1;
+grid-row: 3;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.poster1{
+  border: 1px solid yellow;
+  border-radius: 10px;
+  width: 60%;
+
+}
+
+/* .poster2_container{
+  grid-column: 1;
+  grid-row: 4;
+  width: 80%;
+  
+  padding: 0;
+  }
+  
+  .poster2{
+    border: 1px solid yellow;
+    border-radius: 10px;
+    margin-left: 20%;
+    width: 55%;
+  
+  } */

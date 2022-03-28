@@ -1,0 +1,145 @@
+
+body, html {
+  font-family: Ubuntu, Noto Sans Koreran;
+  color: #e0f2f1;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/*  header  */
+
+.header {
+  padding: 15px;
+  /* border: 1px solid #607d8b; */
+  display: flex;
+  justify-content: space-between;
+  /* position: sticky; */
+  /* background-color: #263238; */
+}
+
+.header .logo {
+  color: #fff;
+  font-size: 26px;
+  text-decoration: none;
+  margin-left: 100px;
+}
+.header ol {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0;
+  /* margin-right: 15px; */
+
+}
+.header_menu{
+  /* margin-right: 100px; */
+  padding-right: 30px;
+}
+.header_menu a{
+  font-size: 20px;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header_menu a:hover{
+  color: #f8bbd0;
+}
+
+
+/* header the end */
+.signIn_wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* flex: 1; */
+  /* margin: 5px 30px; */
+  /* min-height: 100vh; */
+}
+.signIn_main {
+  flex: 1;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* border: 1px solid yellow; */
+  display: flex;
+  justify-content: center;
+}
+
+/* foot */
+
+.footer {
+  color: ##fff;
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+  margin-top: auto;
+}
+
+.footer a {
+  color: #78909c;
+}
+
+.copy_link ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.sns_icon {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  /* text-decoration: none; */
+}
+.sns_icon li {
+  font-size: 34px;
+  margin: 0px 15px;`
+}
+.sns_icon li i{
+  color: #e3f2fd;
+
+}
+.footer li {
+  list-style-type: none;
+}
+
+.header a:hover{
+  color: #f8bbd0;
+
+}
+
+.sns_icon li i:hover{
+  color: #64b5f6;
+
+}
+/* footer the end */
+
+/* 여기까지 공통 */
+
+
+
+.signIn_form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.signIn_table input{
+  margin: 4px;
+}
+
+.signIn_form img{
+margin-bottom: 13px;
+}
+
+.signIn_button input{
+  margin: 8px;
+}
+

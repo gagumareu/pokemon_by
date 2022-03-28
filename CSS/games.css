@@ -1,0 +1,197 @@
+
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Ubuntu, Noto Sans Koreran;
+  color: #e0f2f1;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+/*  header  */
+
+.header {
+  padding: 15px;
+  /* border: 1px solid #607d8b; */
+  display: flex;
+  justify-content: space-between;
+  /* position: sticky; */
+  /* background-color: #263238; */
+}
+
+.header .logo {
+  color: #fff;
+  font-size: 26px;
+  text-decoration: none;
+  margin-left: 100px;
+}
+.header ol {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0;
+  /* margin-right: 15px; */
+
+}
+.header_menu{
+  /* margin-right: 100px; */
+  padding-right: 30px;
+}
+.header_menu a{
+  font-size: 20px;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* .header_menu a:hover{
+  color: #f8bbd0;
+} */
+
+.header a:hover{
+  color: #f8bbd0;
+
+}
+
+/* header the end */
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* align-items: flex-start; */
+}
+.games_main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: center;
+  margin: 30px 30px;
+  display: grid;
+  grid-template-columns: 45% auto;
+  gap: 2em;
+}
+
+
+/* foot */
+
+.footer {
+  color: ##fff;
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+  margin-top: auto;
+}
+
+.footer a {
+  color: #78909c;
+}
+
+.copy_link ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.sns_icon {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  /* text-decoration: none; */
+}
+.sns_icon li {
+  font-size: 34px;
+  margin: 0px 15px;`
+}
+.sns_icon li i{
+  color: #e3f2fd;
+
+}
+.footer li {
+  list-style-type: none;
+}
+
+.sns_icon li i:hover{
+  color: #64b5f6;
+
+}
+/* footer the end */
+
+/* 여기까지 공통 */
+
+.history{
+  /* border: 5px solid yellow; */
+  /* border-radius: 10px; */
+  width: 80%;
+  position: sticky;
+  top: 20px;
+
+  grid-column: 1;
+
+  /* margin-left: 15%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20%;
+ }
+
+ .history_video{
+   border: 3px solid yellow;
+   border-radius: 10px;
+ }
+ .card{
+   margin: 10px 7px;
+   width: 40%;
+
+ }
+
+ .card_container{
+   margin-top: 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   
+ }
+
+ .images{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-column: 2;
+  /* width: 100%; */
+  /* float: left; */
+  }
+  .images img {
+    margin: 15px 0;
+  }
+  .ingame{
+    width: 45%;
+  }
+  .ingame2{
+    width: 45%;
+  }
+  
+  .redblue {
+  width: 60%;
+  }
+  
+  .goldsilver {
+  width: 60%;
+  }
+  
+  .rubysapha {
+  width: 60%;
+  }
+  
+  .swordshield {
+  width: 60%;
+  }
+
+  .sub{
+    width: 60%;
+  }
